@@ -1,0 +1,14 @@
+bin\Debug\SonicOptionsLib.dll
+bin\Debug\ISO9660_TestHarness.exe
+bin\Debug\ISO9660_TestHarness.pdb
+bin\Debug\ISO9660_TestHarness.xml
+bin\Debug\Javelin.Common.dll
+bin\Debug\Win32Security.dll
+bin\Debug\Javelin.Common.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ISO9660_TestHarness.Form1.resources
+obj\Debug\ISO9660_TestHarness.Resources.resources
+obj\Debug\ISO9660_TestHarness.vbproj.GenerateResource.Cache
+obj\Debug\ISO9660_TestHarness.exe
+obj\Debug\ISO9660_TestHarness.xml
+obj\Debug\ISO9660_TestHarness.pdb

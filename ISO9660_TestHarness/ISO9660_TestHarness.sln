@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ISO9660_TestHarness", "ISO9660_TestHarness.vbproj", "{D2C480BE-E812-4019-AE7F-A7B5C4429BDF}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Javelin_Common", "..\..\..\Libraries\Common\Common 1.0\Javelin_Common.vbproj", "{96AE9A49-463A-4637-B823-3EB4135445B0}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccProjectUniqueName0 = ..\\..\\..\\Libraries\\Common\\Common\u00201.0\\Javelin_Common.vbproj
+		SccProjectName0 = $/Products/Javelin/Libraries/Common/Common\u00201.0
+		SccLocalPath0 = ..\\..\\..\\Libraries\\Common\\Common\u00201.0
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = ISO9660_TestHarness.vbproj
+		SccLocalPath2 = .
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug  (Apps Only)|Any CPU = Debug  (Apps Only)|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2C480BE-E812-4019-AE7F-A7B5C4429BDF}.Debug  (Apps Only)|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2C480BE-E812-4019-AE7F-A7B5C4429BDF}.Debug  (Apps Only)|Any CPU.Build.0 = Debug|Any CPU
+		{D2C480BE-E812-4019-AE7F-A7B5C4429BDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2C480BE-E812-4019-AE7F-A7B5C4429BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2C480BE-E812-4019-AE7F-A7B5C4429BDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2C480BE-E812-4019-AE7F-A7B5C4429BDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96AE9A49-463A-4637-B823-3EB4135445B0}.Debug  (Apps Only)|Any CPU.ActiveCfg = Debug  (Apps Only)|Any CPU
+		{96AE9A49-463A-4637-B823-3EB4135445B0}.Debug  (Apps Only)|Any CPU.Build.0 = Debug  (Apps Only)|Any CPU
+		{96AE9A49-463A-4637-B823-3EB4135445B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96AE9A49-463A-4637-B823-3EB4135445B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96AE9A49-463A-4637-B823-3EB4135445B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96AE9A49-463A-4637-B823-3EB4135445B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

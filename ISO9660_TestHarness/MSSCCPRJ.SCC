@@ -1,0 +1,10 @@
+SCC = This is a Source Code Control file.
+
+[ISO9660_TestHarness.vbproj]
+SCC_Aux_Path = hq.javelindvd.com:8890:Javelin
+SCC_Project_Name = $/Products/Javelin/Applications/TestApps/ISO9660_TestHarness
+
+[ISO9660_TestHarness.sln]
+SCC_Aux_Path = hq.javelindvd.com:8890:Javelin
+SCC_Project_Name = $/Products/Javelin/Applications/TestApps/ISO9660_TestHarness
+
