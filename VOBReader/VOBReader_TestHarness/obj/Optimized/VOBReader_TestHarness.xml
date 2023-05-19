@@ -1,0 +1,73 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+VOBReader_TestHarness
+</name>
+</assembly>
+<members>
+<member name="T:VOBReader_TestHarness.cVOBExtractor">
+	<summary>
+ ONE USE ONLY
+ </summary>
+	<remarks></remarks>
+</member><member name="M:VOBReader_TestHarness.VOBReader_Main.btnExtractOneSector_Click(System.Object,System.EventArgs)">
+	<summary>
+ Read a single sector from the VOB.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:VOBReader_TestHarness.VOBReader_Main.btnExtract_Mthread_Click(System.Object,System.EventArgs)">
+	<summary>
+ Multi-threaded extract of the VOB.
+ Extracts @~ 0.75s / 10MB
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:VOBReader_TestHarness.VOBReader_Main.btnExtract_1thread_Click(System.Object,System.EventArgs)">
+	<summary>
+ Run on main thread.
+ Extracts @~ 0.12sec / 10MB 
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:VOBReader_TestHarness.VOBReader_Main.Handle_FileStart">
+	<summary>
+ Not used for anything significant here.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:VOBReader_TestHarness.VOBReader_Main.Handle_ReadSector(System.UInt64)">
+	<summary>
+ This method needs a delegate implementation to handle the Invoke issue.
+ Uncomment the line and you'll see the exception.
+ </summary>
+	<param name="SectorNumber"></param>
+	<remarks></remarks>
+</member><member name="P:VOBReader_TestHarness.cVOBSetStream.Length">
+	<summary>
+ Provides the total size of all VOBs in the selected VOB Set.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:VOBReader_TestHarness.cVOBSetStream.Read(System.Byte[],System.Int32,System.Int32)">
+	<summary>
+	</summary>
+	<param name="buffer"></param>
+	<param name="offset">Ignored. Method always will write to the buffer from the beginning.</param>
+	<param name="count"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:VOBReader_TestHarness.cVOBSetStream.Seek(System.Int64,System.IO.SeekOrigin)">
+	<summary>
+	</summary>
+	<param name="offset"></param>
+	<param name="origin"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

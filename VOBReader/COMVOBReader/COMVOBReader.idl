@@ -1,0 +1,42 @@
+// COMVOBReader.idl : IDL source for COMVOBReader
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (COMVOBReader.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+typedef BYTE far *LPBYTE;
+
+[
+	object,
+	uuid(C2134A04-839F-44E6-A5D6-A1ABBA62CB1E),
+	nonextensible,
+	helpstring("IVOBReader Interface"),
+	pointer_default(unique)
+]
+interface IVOBReader : IUnknown{
+	[id(1), helpstring("method ReadSector")] HRESULT ReadSector([in] long SectorNumber, [out] LPBYTE* SectorData);
+	[id(2), helpstring("method Initialize")] HRESULT Initialize([in] LPCWSTR VOBPath);
+	[id(3), helpstring("method Test_A")] HRESULT Test_A([out] LPBYTE * SectorData, long test);
+	[id(4), helpstring("method DeInit")] HRESULT DeInit(void);
+	[id(5), helpstring("method UnlockDrive")] HRESULT UnlockDrive([in] LPCWSTR DrivePath);
+};
+[
+	uuid(C38DB93B-5417-4F53-B571-518AD2B2897E),
+	version(1.0),
+	helpstring("COMVOBReader 1.0 Type Library")
+]
+library COMVOBReaderLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(707DBF60-B624-4ADF-B89C-6A9B438B2395),
+		helpstring("CVOBReader Class")
+	]
+	coclass CVOBReader
+	{
+		[default] interface IVOBReader;
+	};
+};

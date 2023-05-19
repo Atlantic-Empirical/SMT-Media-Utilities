@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		'%APPID%' = s 'COMVOBReader'
+		'COMVOBReader.DLL'
+		{
+			val AppID = s '%APPID%'
+		}
+	}
+}

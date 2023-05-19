@@ -1,0 +1,26 @@
+HKCR
+{
+	COMVOBReader.CVOBReader.1 = s 'CVOBReader Class'
+	{
+		CLSID = s '{707DBF60-B624-4ADF-B89C-6A9B438B2395}'
+	}
+	COMVOBReader.CVOBReader = s 'CVOBReader Class'
+	{
+		CLSID = s '{707DBF60-B624-4ADF-B89C-6A9B438B2395}'
+		CurVer = s 'COMVOBReader.CVOBReader.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {707DBF60-B624-4ADF-B89C-6A9B438B2395} = s 'CVOBReader Class'
+		{
+			ProgID = s 'COMVOBReader.CVOBReader.1'
+			VersionIndependentProgID = s 'COMVOBReader.CVOBReader'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{C38DB93B-5417-4F53-B571-518AD2B2897E}'
+		}
+	}
+}
